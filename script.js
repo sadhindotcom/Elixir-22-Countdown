@@ -11,7 +11,7 @@ function countdown() {
     const hallDayDate = new Date(hallDay);
     const currDate = new Date();
 
-    const totalSeconds = (hallDayDate - currDate) / 1000;
+    const totalSeconds = (hallDayDate - currDate);
 
      const days = Math.floor(totalSeconds / (1000*60*60*24));
     const hours = Math.floor((totalSeconds % (1000*60*60*24)) / (1000*60*60));
