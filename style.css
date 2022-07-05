@@ -11,6 +11,11 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+.image:hover{
+    transform: scale(1.1);
+    transition: transform .4s;
+}
 .container{
     background-color: #191919;
     display: flex;
