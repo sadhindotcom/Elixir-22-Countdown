@@ -5,7 +5,7 @@ const secondsEl = document.getElementById("seconds");
 
 
 
-const hallDay = '2 july 2022'
+const hallDay = '1 january 2023'
 
 function countdown() {
     const hallDayDate = new Date(hallDay);
@@ -20,7 +20,7 @@ function countdown() {
 
 
 
-    daysEl.innerHTML = days;
+    daysEl.innerHTML = formatTiming(days);
     hoursEl.innerHTML = formatTiming(hours);
     mintsEl.innerHTML = formatTiming(mints);
     secondsEl.innerHTML = formatTiming(seconds);
